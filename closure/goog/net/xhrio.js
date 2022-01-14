@@ -130,7 +130,7 @@ goog.net.XhrIo = function(opt_xmlHttpFactory) {
   this.lastError_ = '';
 
   /**
-   * Used to ensure that we don't dispatch an multiple ERROR events. This can
+   * Used to ensure that we don't dispatch multiple ERROR events. This can
    * happen in IE when it does a synchronous load and one error is handled in
    * the ready state change and one is handled due to send() throwing an
    * exception.
